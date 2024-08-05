@@ -1,0 +1,11 @@
+1-Messages (Video,Audio,Document,....)
+	List friends => Msgs
+2-Profiles () 
+
+3-News Net 
+
+4-Searchs (Posts,Friends)
+
+Login 
+Register 
+Forget Password  Or Email  ?
