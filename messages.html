@@ -1,21 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <style>
+* {
+  box-sizing: border-box;
+  margin:0px;
+  pading:0px;
+}
+
+
 .flex-container {
   display: flex;
- 
+  height:100%;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+.flex-item-left {
+  background-color: gray;
+  padding: 10px;
+  flex: 10%;
+}
+
+.flex-item-right {
+  background-color: lightgray;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
 }
 </style>
-</head>
+
 <body>
 
-
 <div class="flex-container">
-  <div>1</div>
-  <div>2</div>
+  <div class="flex-item-left"><p>idfnjdvsdnksd<p><p><br>yusdbsdbsdihsduui</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br></div>
+  <div class="flex-item-right"><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p><br><p>udfudsuisdiu</p></div>
 </div>
+
+</body>
+</html>
+
